@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://partyfashion.de/</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Hauptkategorien -->
+    <url>
+        <loc>https://partyfashion.de/damen</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/herren</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/neuheiten</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/sale</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Unterkategorien Damen -->
+    <url>
+        <loc>https://partyfashion.de/damen/kleider</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/damen/oberteile</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/damen/hosen</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Unterkategorien Herren -->
+    <url>
+        <loc>https://partyfashion.de/herren/shirts</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/herren/hosen</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/herren/jacken</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Themenwelten -->
+    <url>
+        <loc>https://partyfashion.de/party-events</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/streetwear</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/casual-everyday</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Beispiel-Produkte (mit Bildern) -->
+    <url>
+        <loc>https://partyfashion.de/produkte/oversize-hoodie-black</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://partyfashion.de/assets/images/products/hoodie-black.jpg</image:loc>
+            <image:caption>Oversize Hoodie Black - Party Fashion</image:caption>
+            <image:title>Oversize Hoodie Black</image:title>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/produkte/streetwear-cargo-pants</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://partyfashion.de/assets/images/products/cargo-pants.jpg</image:loc>
+            <image:caption>Streetwear Cargo Pants - Party Fashion</image:caption>
+            <image:title>Streetwear Cargo Pants</image:title>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/produkte/party-dress-glitter</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://partyfashion.de/assets/images/products/dress-glitter.jpg</image:loc>
+            <image:caption>Party Dress Glitter - Party Fashion</image:caption>
+            <image:title>Party Dress Glitter</image:title>
+        </image:image>
+    </url>
+    
+    <!-- Informationsseiten -->
+    <url>
+        <loc>https://partyfashion.de/ueber-uns</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/kontakt</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/faq</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/groessentabelle</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/versand-rueckgabe</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- Rechtliche Seiten (niedrige Priorität) -->
+    <url>
+        <loc>https://partyfashion.de/impressum</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/datenschutz</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/agb</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>https://partyfashion.de/widerrufsbelehrung</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+</urlset>
+
+<!-- 
+HINWEISE ZUR SITEMAP:
+
+1. Diese Sitemap ist ein TEMPLATE und muss angepasst werden:
+   - URLs mit echten Produkten ergänzen
+   - lastmod-Datum bei Änderungen aktualisieren
+   - Nicht existierende URLs entfernen
+
+2. Nach Änderungen in Google Search Console einreichen:
+   https://search.google.com/search-console
+
+3. In robots.txt referenziert (bereits eingetragen)
+
+4. Automatische Sitemap-Generierung empfohlen:
+   - Bei WordPress: Yoast SEO Plugin
+   - Bei Shopify: Automatisch generiert
+   - Manuell: XML-Sitemap Generator Tools
+
+5. Changefreq Bedeutung:
+   - always: Bei jedem Zugriff ändern
+   - hourly: Stündlich
+   - daily: Täglich
+   - weekly: Wöchentlich
+   - monthly: Monatlich
+   - yearly: Jährlich
+   - never: Archiviert, ändert sich nie
+
+6. Priority Bedeutung (0.0 - 1.0):
+   - 1.0: Höchste Priorität (Homepage)
+   - 0.8-0.9: Sehr wichtig (Kategorien)
+   - 0.5-0.7: Mittel (Produkte)
+   - 0.3-0.4: Niedrig (Rechtliches)
+
+7. Maximale Größe: 50.000 URLs oder 50MB
+   - Bei mehr URLs: Sitemap-Index verwenden
+
+8. Validierung:
+   https://www.xml-sitemaps.com/validate-xml-sitemap.html
+
+Erstellt: 16. November 2025
+Version: 1.0
+Projekt: Party Fashion
+-->

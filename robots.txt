@@ -1,0 +1,104 @@
+# Party Fashion - Robots.txt
+# https://partyfashion.de/robots.txt
+
+# Generelle Regeln für alle Crawler
+User-agent: *
+
+# Erlaubte Bereiche (Standard: alles erlaubt)
+Allow: /
+
+# Gesperrte Bereiche
+Disallow: /admin/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /account/
+Disallow: /login/
+Disallow: /register/
+Disallow: /api/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Technische Dateien
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.sql$
+
+# Keine Session-IDs indexieren
+Disallow: /*?sessionid=
+Disallow: /*?sid=
+
+# Keine Suchergebnisse indexieren
+Disallow: /search?
+Disallow: /*?s=
+Disallow: /*?q=
+
+# Filter und Sortierungen nicht indexieren
+Disallow: /*?sort=
+Disallow: /*?filter=
+Disallow: /*?page=
+
+# Spezielle Crawler-Regeln
+
+# Google Bot - Optimiert für Shopping
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /checkout/
+
+# Google Image Bot - Produktbilder erlauben
+User-agent: Googlebot-Image
+Allow: /assets/images/products/
+Allow: /assets/images/categories/
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+
+# Yandex Bot (Russische Suchmaschine)
+User-agent: Yandex
+Allow: /
+
+# Bad Bots blockieren (bekannte Scraper und Spam-Bots)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap-Location (Anpassen nach Erstellung!)
+Sitemap: https://partyfashion.de/sitemap.xml
+
+# Crawl-Delay (optional, nur wenn Server überlastet)
+# User-agent: *
+# Crawl-delay: 10
+
+# Host-Direktive (bevorzugte Domain)
+# Nur für Yandex
+Host: https://partyfashion.de
+
+# ============================================
+# HINWEISE
+# ============================================
+# 
+# 1. Nach Upload diese Datei testen:
+#    https://www.google.com/webmasters/tools/robots-testing-tool
+#
+# 2. In Google Search Console einreichen
+#
+# 3. Sitemap erstellen und URL hier eintragen
+#
+# 4. Regelmäßig auf 404-Fehler prüfen
+#
+# ============================================
+
+# Erstellt am: 16. November 2025
+# Version: 1.0
+# Projekt: Party Fashion

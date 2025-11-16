@@ -1,0 +1,286 @@
+# Party Fashion - Git Ignore File
+
+# ==============================================================================
+# OPERATING SYSTEM FILES
+# ==============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+
+# ==============================================================================
+# IDE & EDITOR FILES
+# ==============================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (WebStorm, PhpStorm, etc.)
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ==============================================================================
+# NODE & NPM (falls später verwendet)
+# ==============================================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.npm
+.eslintcache
+
+# ==============================================================================
+# DEPENDENCIES & BUILDS
+# ==============================================================================
+
+/dist/
+/build/
+/out/
+/.next/
+/.cache/
+
+# ==============================================================================
+# ENVIRONMENT & CONFIG
+# ==============================================================================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Config files mit sensiblen Daten
+config.local.php
+database.php
+secrets.json
+
+# ==============================================================================
+# LOGS
+# ==============================================================================
+
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==============================================================================
+# BACKUP & TEMPORARY FILES
+# ==============================================================================
+
+*.bak
+*.tmp
+*.temp
+*~
+.cache/
+temp/
+tmp/
+
+# ==============================================================================
+# COMPRESSED FILES
+# ==============================================================================
+
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Außer Release-Dateien
+!releases/*.zip
+
+# ==============================================================================
+# DEVELOPMENT & TESTING
+# ==============================================================================
+
+# Test coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Jest
+jest-results/
+
+# ==============================================================================
+# WORDPRESS (falls WooCommerce genutzt wird)
+# ==============================================================================
+
+# WordPress Core
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+
+# Plugins & Themes (die nicht zum Projekt gehören)
+/wp-content/plugins/*
+!/wp-content/plugins/custom-plugin/
+
+/wp-content/themes/*
+!/wp-content/themes/party-fashion-theme/
+
+# ==============================================================================
+# PHP
+# ==============================================================================
+
+/vendor/
+composer.lock
+composer.phar
+
+# ==============================================================================
+# DATABASES
+# ==============================================================================
+
+*.sql
+*.sqlite
+*.db
+
+# ==============================================================================
+# ASSETS (Original-Dateien, nicht optimiert)
+# ==============================================================================
+
+# Große Original-Bilder (nicht optimierte Versionen)
+/assets/originals/
+/raw-assets/
+
+# Adobe & Design Files
+*.psd
+*.ai
+*.sketch
+*.fig
+*.xd
+
+# Video Source Files
+*.mov
+*.mp4
+*.avi
+/videos/raw/
+
+# ==============================================================================
+# DOCUMENTATION (private Notizen)
+# ==============================================================================
+
+/docs/private/
+/notes/
+TODO-private.md
+
+# ==============================================================================
+# SERVER & DEPLOYMENT
+# ==============================================================================
+
+# FTP Sync Metadaten
+.ftpconfig
+.ftppass
+sftp-config.json
+
+# Deployment Scripts mit Credentials
+deploy-private.sh
+.deployrc
+
+# ==============================================================================
+# SECURITY & CREDENTIALS
+# ==============================================================================
+
+# Private Keys
+*.pem
+*.key
+*.cert
+.ssh/
+
+# Passwörter & Secrets
+secrets/
+credentials/
+*.credentials
+
+# ==============================================================================
+# ANALYTICS & TRACKING
+# ==============================================================================
+
+# Google Analytics Tracking-Daten (local)
+analytics-data/
+
+# ==============================================================================
+# CUSTOM PROJECT-SPECIFIC
+# ==============================================================================
+
+# Produktbilder (zu groß für Git, auf CDN hosten)
+# /assets/images/products/
+# Auskommentieren wenn Bilder versioniert werden sollen
+
+# Kundendaten & Bestellungen (NIEMALS commiten!)
+/customer-data/
+/orders/
+*.customer.json
+
+# Backup Ordner
+/backups/
+
+# Development Environment
+.local-server/
+
+# ==============================================================================
+# KEEP THESE FILES (with !)
+# ==============================================================================
+
+# Git-Konfiguration behalten
+!.gitignore
+!.gitattributes
+
+# README und Dokumentation behalten
+!README.md
+!LICENSE
+!CONTRIBUTING.md
+
+# Essential config templates
+!config.example.php
+!.env.example
+
+# ==============================================================================
+# NOTES
+# ==============================================================================
+
+# Diese .gitignore Datei ist für Party Fashion optimiert
+# Für weitere Anpassungen siehe: https://github.com/github/gitignore
