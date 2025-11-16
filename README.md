@@ -1,2 +1,0 @@
-# PartyFashion-claude
-Webseite claude
